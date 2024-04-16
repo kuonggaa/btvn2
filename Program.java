@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
-public class Main {
+public class Program {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Nhập một số nguyên dương: ");
+        System.out.print("Nhập vào một số: ");
         int number = scanner.nextInt();
 
-        // Sử dụng lệnh rẽ nhánh để kiểm tra số nhập vào là số chẵn hay lẻ
+        // Sử dụng lệnh rẽ nhánh để kiểm tra số nhập vào là số chẵn hay số lẻ
         if (number % 2 == 0) {
             System.out.println(number + " là số chẵn.");
         } else {
